@@ -16,7 +16,7 @@
 
     <color name="sort_widget_text_color">#b3ffffff</color>
 
-    <color name="root_icon_color">@*android:color/accent_material_light</color>
+    <color name="root_icon_color">@*android:color/white</color>
     <item name="root_icon_disabled_alpha" format="float" type="dimen">@*android:dimen/disabled_alpha_material_light</item>
     <color name="doc_icon_color">@*android:color/accent_material_light</color>
     
