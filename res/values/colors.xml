@@ -20,24 +20,24 @@
          app background (e.g. the drawer overlay). -->
     <color name="window_background">#fff1f1f1</color>
     <color name="drawer_background">#fff1f1f1</color>
-    <color name="drawer_border">#ffd4d4d4</color>
+    <color name="drawer_border">#00000000</color>
     <color name="directory_background">#fff7f7f7</color>
     <color name="menu_search_background">@android:color/transparent</color>
 
-    <color name="primary_dark">#ff254FAE</color>
-    <color name="primary">@color/tool_bar_color</color>
-    <color name="accent">@color/tool_bar_color</color>
+    <color name="primary_dark">@*android:color/material_grey_850</color>
+    <color name="primary">@*android:color/material_grey_850</color>
+    <color name="accent">@*android:color/accent_device_default_dark</color>
     <color name="accent_dark">@*android:color/accent_device_default_dark</color>
 
     <color name="text_cursor">@*android:color/white</color>
-    <color name="text_handle">#FF82B1FF</color>     <!--Blue A100-->
-    <color name="text_highlight">#FF82B1FF</color>  <!--Blue A100-->
+    <color name="text_handle">@*android:color/accent_device_default_dark</color>     <!--Blue A100-->
+    <color name="text_highlight">@*android:color/accent_device_default_dark</color>  <!--Blue A100-->
 
     <color name="band_select_background">#88ffffff</color>
     <color name="band_select_border">#44000000</color>
 
     <color name="root_title_color">#de000000</color>
-    <color name="root_activated_color">@*android:color/Blue_700</color>
+    <color name="root_activated_color">@*android:color/accent_device_default_dark</color>
     <color name="root_details_color">#8a000000</color>
     <color name="root_focus_color">#ffe0e0e0</color>
 
@@ -47,8 +47,8 @@
 
     <color name="root_icon_color">#ff5a5a5a</color>
     <item name="root_icon_disabled_alpha" format="float" type="dimen">@*android:dimen/disabled_alpha_material_light</item>
-    <color name="doc_icon_color">#ff5a5a5a</color>
-    <color name="tool_bar_color">#ff1A73E8</color>
+    <color name="doc_icon_color">@*android:color/accent_device_default_dark</color>
+    <color name="tool_bar_color">@*android:color/material_grey_850</color>
 
     <!-- TODO: Would be nice to move this to a color-set, but not sure how to support animation -->
     <color name="item_doc_title">#ff333333</color>
